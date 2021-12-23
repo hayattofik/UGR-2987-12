@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding :0;
+   
+  
+}
+body{
+ 
+ background-image: url("../images/aboutbacground.webp");
+}
+.signflex{
+    display:flex;
+    margin-top: 3rem 3rem;
+}
+header{
+    background-image: url("../images/smii.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.meflex{
+    display:flex;
+    flex-direction: row;
+   
+
+}
+.firsttextiimg{
+    align-items: flex-start;
+}
+.hobbyflex{
+    display: flex;
+    flex-direction: column;
+  
+}
+.hobbies1,.hobbies2,.hobbies3,.hobbies4{
+    display: flex;
+    gap:2rem;
+    font-size: 1.5rem;
+    margin:2rem;
+ 
+
+}
+
+.me{
+    height:60%;
+    width:50%;
+    object-fit: cover;
+}
+.web{
+    display: flex;
+}
+.studentparagraph,.signparagraph,.wep,.introp{
+    font-size: 1.7rem;
+    font-family: "papyrus",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: rgb(50, 53, 59);
+    text-indent: 1.5rem;
+    font-weight: bold;
+    border-style: outset;
+    box-shadow: grey;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s61-jir0143-chim-01_1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=26dac6d2d0c72a38734b597d0a6bb1c9");
+}
+.headerflex{
+    display:flex;
+    justify-content:space-between;
+    box-shadow: grey;
+    background-image: url("../images/smii.jpg");
+
+}
+
+
+header nav{
+    background-image: url("");
+}
+
+.menu a input {
+  
+    color: white;
+    padding: 1rem 2.5rem;
+    text-align: center;
+   border-radius: 2rem;
+    font-size: 1rem;
+    margin: 2rem 2rem;
+
+    background-image: url("https://i.pinimg.com/originals/61/44/85/6144853c097827e00c15439bb0193e9e.gif");
+    
+}
+.logo img{
+    margin:0;
+   
+}
+footer{
+        background-color: black;
+        color: white;
+       margin-top: 22rem;
+    }
+    .contact{
+        margin:2em 2em;
+    }
+    .fa  {
+        padding: 10px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+      }
+      .copyright{
+          float:left;
+    
+      }
+      .links nav {
+        margin-left: 45%;
+      }
+      .links nav li a{
+          padding-left:1rem;
+          color:white;
+      }
+      .socialmedia{
+          float:right;
+      }
+      footer ul li{
+          display: inline;
+          background-color: black;
+      }
+      footer{
+          display:grid;
+          grid-auto-flow: row;
+          justify-content: space-between;
+          grid-template-columns: 1.5fr 1.5fr 1.5fr;
+
+      }
+      .links{
+          display: flex;
+          gap: 2rem;
+          color:white;
+
+      }
+      .copyright{
+          grid-row: 1/3span;
+
+      }
+.meflex{
+    margin-bottom: 0;
+}
+.sign__{
+    margin-top: 0;
+}
+
+
+h1{
+    font-family:  "YELLOWTAIL" ,'Courier New', Courier, monospace;
+    font-size: 3rem;
+ 
+ text-shadow: 4px 3px 8px rgb(17, 34, 179);}
+     
+h2{
+    font-size: 2rem;
+    font-family:cursive,'Times New Roman', Times, serif;
+   text-shadow: 5px 5px 10px black;
+   margin:1.5rem;
+}
+@media screen and (max-width: 600px) {
+    .signflex{
+        flex-direction: column-reverse;
+    }
+     .meflex,.web{
+         flex-direction: column;
+     }
+     .hobbies1,.hobbies2,.hobbies3,.hobbies4{
+        display: flex;
+        gap:1rem;
+        font-size: 0.75rem;
+        margin:1rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .mb:hover{
+    background-color: rgb(103, 250, 255);
+    border-radius: 60%;
+    }
+    .inttext,.sign__{
+        width:100%;
+        font-size: 1.5rem;
+        margin:0;
+    }
+    @media screen and (min-width:800px){
+    .cont{
+        color: white;
+        padding: 1rem 2.5rem;
+        text-align: center;
+       border-radius: 2rem;
+        font-size: 1rem;
+        margin: 2rem 2rem;
+    
+        background-image: url("https://i.pinimg.com/originals/61/44/85/6144853c097827e00c15439bb0193e9e.gif");
+        
+       }}
+.mb{
+
+    width:40%;
+    height:30%;
+}
+.cont{
+    color: white;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+   border-radius: 2rem;
+    font-size: 0.5rem;
+    margin: 1rem 1rem;
+
+    background-image: url("https://i.pinimg.com/originals/61/44/85/6144853c097827e00c15439bb0193e9e.gif");
+    
+}
+   }
+   .web{
+       margin-top: 4rem;
+   }
+ 
+ 

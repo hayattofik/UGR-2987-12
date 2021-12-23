@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-image: url("../images/smii.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+body{
+    background-color: rgb(113, 222, 255);
+}
+h1{
+    font-family:  "YELLOWTAIL" ,'Courier New', Courier, monospace;
+    font-size: 3rem;
+ 
+ text-shadow: 4px 3px 8px rgb(17, 34, 179);}
+ .skillpara{
+     font-family: "papyrus",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: bold;
+     font-size: 1.5rem;
+ }
+
+.pytext,.ctext,.jatext,.vatext {
+  font-size: 2rem;}
+
+.program,.use{
+    background-color: rgb(3, 2, 75);
+}
+footer{
+    background-color: black;
+    color: white;
+   margin-top: 22rem;
+}
+.contact{
+    margin:2em 2em;
+}
+.fa  {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+  }
+  .copyright{
+      float:left;
+
+  }
+  .links nav {
+    margin-left: 45%;
+  }
+  .links nav li a{
+      padding-left:1rem;
+      color:white;
+  }
+  .socialmedia{
+      float:right;
+  }
+  footer ul li{
+      display: inline;
+      background-color: black;
+  }
+  footer{
+      display:grid;
+      grid-auto-flow: row;
+      justify-content: space-between;
+      grid-template-columns: 1.5fr 1.5fr 1.5fr;
+
+  }
+  .headerflex{
+    display:flex;
+    justify-content:space-between;
+    box-shadow: grey;
+    background-image: url("../images/smii.jpg");
+
+}
+
+
+header nav{
+    background-image: url("");
+}
+
+.menu a input {
+  
+    color: white;
+    padding: 1rem 2.5rem;
+    text-align: center;
+   border-radius: 2rem;
+    font-size: 1rem;
+    margin: 2rem 2rem;
+
+    background-image: url("https://i.pinimg.com/originals/61/44/85/6144853c097827e00c15439bb0193e9e.gif");
+    
+}
+.logo img{
+    margin:0;
+   
+}
+  .links{
+      display: flex;
+      gap: 2rem;
+      color:white;
+
+  }
+  .copyright{
+      grid-row: 1/3span;
+
+  }
+table, th, td {
+    border: 1px solid black;
+    
+  }
+  table td{
+     font-family: "papyrus",Arial, Helvetica, sans-serif;
+  }
+  table{
+      width:40vw;
+      height:60vh;
+     margin-left: 25%;
+     border-color: white;
+  }
+ 
+ 
+  .response{
+      float:right;
+  }
+  @media screen and (max-width: 600px) {
+    table{
+        width:100%;
+    }
+     
+
+   }
+   .skillflex1{
+       display: flex;
+       gap:2rem;
+       
+   }
+   .response{
+       width:100%;
+       margin-top: 6rem;
+   }
+   .question,.response,.conski{
+       background-color: rgb(1, 1, 14);
+       color: white;
+       border-radius: 10%;
+       box-shadow:5px grey;
+       box-sizing: border-box;
+       padding:0 0;
+       border-style: outset;
+   }
+   .mayacont {
+    background-color: #0cc534; 
+    border-style: ridge;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+  
+    font-size: 1.5rem;
+    border-radius: 30%;
+
+  }
+  table{
+background-image: url("../images/language.jpg");
+color:white;
+margin-bottom: 2rem;
+  }
+  table td{
+      font-size: 1.2rem;
+  }
+  .mayacont:hover{
+      background-color: rgba(221, 59, 221, 0.89);
+  }

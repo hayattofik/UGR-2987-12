@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+    cursor:grabbing;
+}
+body{
+
+  background-image: url("../images/shiro.jpg");
+}
+.slide1,.slide2,.slide3,.slide4{
+    display: flex;
+     
+     height:50vh;
+     object-fit: contain;
+     margin-right:0;
+     box-shadow: 10px 10px 5px grey inset;
+     background-image: url("https://4.bp.blogspot.com/-_jsa9-XMFe8/WSwHF5Rc43I/AAAAAAAAAq8/R36pU091JzUipEj738cAPHtUOeK6nx0LgCLcB/s1600/SeattelComputerGuyTEST400.gif");
+}
+.slide1{
+    background-image: url("https://c.tenor.com/mGgWY8RkgYMAAAAC/hello-world.gif");
+}
+
+#slides{
+    overflow:scroll;
+}
+::-webkit-scrollbar {
+    width: 20px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    box-shadow: outset 0 0 5px grey; 
+    border-radius:0.75rem;
+    }
+    
+  
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background:rgb(104, 35, 233); 
+    }
+#slides figure{
+   position: relative;
+    width:400%;
+    margin-right: 0;
+   
+    Animation:8s  slides infinite;
+    
+}
+#slides figure img{
+    float:left;
+    width:25%
+}
+@keyframes slides{
+
+    0%{
+        left:0;
+    }
+    25%{
+        left:0;
+    }
+    30%{
+        left:-100%;
+    }
+    52%{
+          left:-100%;
+    }
+    
+    
+    77%{
+        left:-200%;
+    }
+  100%{
+      left:-300%;
+  }
+
+
+}
+.headerflex{
+    display:flex;
+    justify-content:space-between;
+    box-shadow: grey;
+    background-image: url("../images/smii.jpg");
+
+}
+
+
+
+.menu a input {
+  
+    color: white;
+    padding: 1rem 2.5rem;
+    text-align: center;
+   border-radius: 2rem;
+    font-size: 1rem;
+    margin: 2rem 2rem;
+
+    background-image: url("https://i.pinimg.com/originals/61/44/85/6144853c097827e00c15439bb0193e9e.gif");
+    
+}
+.logo img{
+    margin:0;
+   
+}
+.abbut{
+
+  float:right;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+   border-radius: 2rem;
+    font-size: 1rem;
+  
+    background-image: url("https://i.pinimg.com/originals/61/44/85/6144853c097827e00c15439bb0193e9e.gif");
+    
+   margin-right: 5rem;
+}
+.abbut:hover{
+    background-image: url("https://i.pinimg.com/originals/4c/71/70/4c717026386a42a61d8b960d5593edbf.gif");
+    background-size: 70px;
+    border-radius:60%;
+    color:black;
+}
+.menu{
+    
+       margin:0;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+.homeflex{
+    display:flex;
+    flex-direction:column;
+   
+        justify-content:space-between;
+        box-shadow: grey;
+        background-image: url("../images/smii.jpg");
+    
+    }
+    footer{
+        background-color: black;
+        color: white;
+       margin-top: 22rem;
+    }
+    .contact{
+        margin:2em 2em;
+    }
+    .fa  {
+        padding: 10px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+      }
+      .copyright{
+          float:left;
+    
+      }
+      .links nav {
+        margin-left: 45%;
+      }
+      .links nav li a{
+          padding-left:1rem;
+          color:white;
+      }
+      .socialmedia{
+          float:right;
+      }
+      footer ul li{
+          display: inline;
+          background-color: black;
+      }
+      footer{
+          display:grid;
+          grid-auto-flow: row;
+          justify-content: space-between;
+          grid-template-columns: 1.5fr 1.5fr 1.5fr;
+
+      }
+      .links{
+          display: flex;
+          gap: 2rem;
+          color:white;
+
+      }
+      .copyright{
+          grid-row: 1/3span;
+
+      }
+
+.bodyflex{
+    display:flex;
+    flex-direction: column;
+}
+.aboutbutton {
+  float: right;
+    flex-shrink:4fr;
+}
+.aboutbutton a input{
+    flex-shrink: 1fr;
+}
+
+    
+     
+    
+
+   
+
+   @media (max-width: 700px) {
+    .slide1,.slide2,.slide3,.slide4 {
+	   
+        padding: 0px 0px;
+        margin: 0px 0px;
+        box-shadow: none;
+        border-style: none;
+   }.menu a input {
+    background-color: #000000;
+  
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+   border-radius: 2rem;
+    font-size: 1rem;
+}}
+ 
+
+.homegrid{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+  
+h1{
+    font-size: 3rem;
+ 
+ text-shadow: 4px 3px 8px rgb(2, 255, 255);}
+     
+
+}
+ 
+  

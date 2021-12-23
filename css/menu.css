@@ -1,0 +1,190 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url("../images/shiro.jpg");
+}
+header{
+    height:25%;
+}
+header nav{
+    background-image: url("../images/smii.jpg");
+}
+
+.logo a input {
+    background-color: #010801; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+     float: right;
+     margin:2rem 2rem;
+     border-style: outset;
+     margin-bottom: 0;
+     border-radius: 50%;
+}
+.logo img{
+    margin:0;
+}
+  
+.home:hover{
+    color:white;
+    background-color: black;
+    
+}
+.home:hover a{
+    color:white;
+    
+    
+}
+.menu__{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer ul li a{
+    color:white;
+}
+
+.home,.what,.skills,.about,.contact,.projects{
+    margin: 3.5em 10em;
+    
+}
+
+
+.d:hover{
+    background-color:cornflowerblue;
+}
+.a:hover{
+    background-color:cornflowerblue;
+}
+.b:hover{
+    background-color:cornflowerblue;
+}
+.c:hover{
+    background-color:cornflowerblue;
+}
+.e:hover{
+    background-color:cornflowerblue;
+}
+.f:hover{
+    background-color:cornflowerblue;
+}
+header{
+    background-image: url("../images/smii.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.menu2{
+    display:flex;
+    flex-direction:column ;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+   margin-top: 22rem;
+}
+.contact{
+    margin:2em 2em;
+}
+.fa  {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+  }
+  .copyright{
+      float:left;
+
+  }
+  .links nav {
+    margin-left: 45%;
+  }
+  .links nav li a{
+      padding-left:1rem;
+      color:white;
+  }
+  .socialmedia{
+      float:right;
+  }
+  footer ul li{
+      display: inline;
+      background-color: black;
+  }
+  footer{
+      display:grid;
+      grid-auto-flow: row;
+      justify-content: space-between;
+      grid-template-columns: 1.5fr 1.5fr 1.5fr;
+
+  }
+  .headerflex{
+    display:flex;
+    justify-content:space-between;
+    box-shadow: grey;
+    background-image: url("../images/smii.jpg");
+
+}
+
+
+header nav{
+    background-image: url("");
+}
+
+.menu1 a input {
+  
+    color: white;
+    padding: 1rem 2.5rem;
+    text-align: center;
+   border-radius: 2rem;
+    font-size: 1rem;
+    margin: 2rem 2rem;
+
+    background-image: url("https://i.pinimg.com/originals/61/44/85/6144853c097827e00c15439bb0193e9e.gif");
+    
+}
+.logo img{
+    margin:0;
+   
+}
+  .links{
+      display: flex;
+      gap: 2rem;
+      color:white;
+
+  }
+  .copyright{
+      grid-row: 1/3span;
+
+  }
+  @media screen and (min-width:800px) {
+    .a,.c,.e,.f,.b,.d{
+        padding:2em 4em;
+        border-radius: 40%;
+       
+        border-style: outset;
+        margin:2em 2em;
+        color:white;
+        background-color: black;
+        box-shadow:1.5rem 1.5rem 1.5rem rgb(16, 241, 211);
+        
+    
+    }
+ 
+    .menu{
+        margin:4rem 4rem;
+    }
+   
+      
+  }
